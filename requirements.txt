@@ -1,6 +1,13 @@
+Step 1 :
+install Anaconda 2019.10 for python 3.7 from https://www.anaconda.com/distribution/
+
+Step 2 : Create vitual environment and install keras
+
 conda create -n nn-project python=3.7 anaconda
 conda activate nn-project
 conda install -n nn-project -c conda-forge keras
+
+Step 3 : Testing of codes
 
 ###########################################
 DNN-Python Testing
@@ -18,3 +25,19 @@ cd DNN-Keras
 
 python DNN-Keras-Seq.py
 python DNN-Keras-funct.py
+
+###########################################
+CNN-Keras Testing
+###########################################
+cd CNN-Keras
+
+python CNN-Keras-funct.py
+python CNN-Keras-funct.py --epochs 500
+
+###########################################
+ResNet50 Testing
+###########################################
+cd ResNet-Keras
+
+python ResNet50.py
+python ResNet50.py --epochs 5

@@ -22,7 +22,7 @@ import os
 from Utils import *
 from keras.utils import to_categorical
 from keras.optimizers import SGD
-
+import argparse
 import keras.backend as K
 K.set_image_data_format('channels_last')
 K.set_learning_phase(1)
@@ -98,6 +98,15 @@ print ("X_test shape: " + str(X_test.shape))
 print ("Y_test shape: " + str(Y_test.shape))
 
 def main():
+
+    parser = argparse.ArgumentParser(description='Constructing CNN for classification')
+    parser.add_argument('--epochs',
+                        required = False,
+                        default = 212,
+                        type=int,
+                        metavar='212',
+                        help="number of epochs to run")
+    args = parser.parse_args()
 #---------------------------------------------------------------------
 #                       Build Model
 #---------------------------------------------------------------------
@@ -112,7 +121,7 @@ def main():
 #---------------------------------------------------------------------
 #                Perfrorm Training & Predictions
 #---------------------------------------------------------------------
-    history = model.fit(X_train, Y_train, epochs = 212, batch_size = 64, validation_data = (X_test, Y_test))
+    history = model.fit(X_train, Y_train, epochs = args.epochs, batch_size = 64, validation_data = (X_test, Y_test))
 
     preds = model.evaluate(X_test, Y_test)
     print ("Loss = " + str(preds[0]))
