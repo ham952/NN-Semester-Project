@@ -1,7 +1,20 @@
 conda create -n nn-project python=3.7 anaconda
 conda activate nn-project
-cd ./DNN-Python
+conda install -n nn-project -c conda-forge keras
 
+###########################################
+DNN-Python Testing
+###########################################
+cd DNN-Python
 
 python deepNN.py
 python deepNN.py --layers_dims 12288 28 6 1 --learning_rate 0.009 --num_iterations 2500
+
+###########################################
+DNN-Keras Testing
+note : change batch size if stuck in local minima
+###########################################
+cd DNN-Keras
+
+python DNN-Keras-Seq.py
+python DNN-Keras-funct.py
