@@ -14,11 +14,30 @@ The last phase of this project involves the study of deep neural networks archit
 
 ## Results
 
+### 1. DNN in Pyhton on cats/no cats dataset
+|  Layer dimensions | Layers Count | Train Accuracy  |Test Accuracy|
+|     :---:      |     :---:      |     :---:      |     :---:      |
+| [12288,7,1] | 2 | 0.100| 0.74 |
+|   [12288,28,6,1] | 3| 0.100| 0.84 |
+|   [12288,20,7,5,1] | 4| 0.9952| 0.80 |
+|   [12288,28,18,9,4,1] | 5| 0.100| 0.74 |
+|   [12288,60,35,20,18,7,4,1] | 7| 0.100| 0.58 |
 
-### ResNet50 Vs custom CNN on Sign Dataset
+### 2. DNN Vs CNN in Keras on Signs Dataset
+
+|  Parameter | DNN in Keras | CNN in Keras  |
+|     :---      |     :---:      |     :---:      |    
+| Trainable Parameters | 307,615 (~0.3m) | 10,214| 
+|   Test  Accuracy |  0.7833 (max 0.825) | 0.82499|
+|   Train Accuracy |   0.9898 |  0.9741|
+|   Train Loss |  0.0474 |  0.1383|
+|   Execution Time |   9.8988  mins |  5.33754  mins|
+|   Epochs |   1000 |  120|
+
+### 3. ResNet50 Vs custom CNN on Signs Dataset
 
 |  Parameter | CNN in Keras | Resnet50  |"|
-|     :---:      |     :---:      |     :---:      |     :---:      |
+|     :---      |     :---:      |     :---:      |     :---:      |
 | Epochs | 120 | 2| 5 |
 |   Test  Accuracy |  0.824999 | 0.7833| 0.8916 |
 |   Time  taken |   5.33754  mins |  3.9617  mins| 6.853  mins  |
