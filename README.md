@@ -12,3 +12,28 @@ We have then analyzed object classification under Convolutional Neural Network (
 
 The last phase of this project involves the study of deep neural networks architectures available in literature. A brief overview of LeNet-5, AlexNet and VGG16 is given. This is followed by implementation of ResNet50 in Keras. This architecture was tested on the same dataset and the results were compared with the earlier developed architectures of deep neural networks and convolutional neural networks
 
+## Results
+
+
+### ResNet50 Vs custom CNN on Sign Dataset
+
+|  Parameter | CNN in Keras | Resnet50  |"|
+|     :---:      |     :---:      |     :---:      |     :---:      |
+| Epochs | 120 | 2| 5 |
+|   Test  Accuracy |  0.824999 | 0.7833| 0.8916 |
+|   Time  taken |   5.33754  mins |  3.9617  mins| 6.853  mins  |
+ 
+
+   
+ 
+
+
+  
+
+
+
+  
+ 
+
+
+
