@@ -1,5 +1,5 @@
 # OBJECT CLASSIFICATION USING NEURAL NETWORKS
-This repo contains code used in the implementation of term project of Neural Network Course.Please go through requirements.txt for code execution guidance
+This repo contains code used in the implementation of term project of Neural Network Course. Please go through requirements.txt for code execution guidance. Feel free to use , dont forget to acknowledge.
  
  ## Objective 
 The main aim of this project is to implement and analyze the problem of object classification using neural networks. Firstly, we have implementing deep neural networks and evaluated the results of the same problem. The problem is then investigated by implementing Convolutional Neural Networks (CNN). Finally the problem is studied under the more recent deep CNN architecture of ResNet50.
