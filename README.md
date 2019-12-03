@@ -17,11 +17,11 @@ The last phase of this project involves the study of deep neural networks archit
 ### 1. DNN in Pyhton on cats/no cats dataset
 |  Layer dimensions | Layers Count | Train Accuracy  |Test Accuracy|
 |     :---:      |     :---:      |     :---:      |     :---:      |
-| [12288,7,1] | 2 | 0.100| 0.74 |
-|   [12288,28,6,1] | 3| 0.100| 0.84 |
+| [12288,7,1] | 2 | 1.00| 0.74 |
+|   [12288,28,6,1] | 3| 1.00| 0.84 |
 |   [12288,20,7,5,1] | 4| 0.9952| 0.80 |
-|   [12288,28,18,9,4,1] | 5| 0.100| 0.74 |
-|   [12288,60,35,20,18,7,4,1] | 7| 0.100| 0.58 |
+|   [12288,28,18,9,4,1] | 5| 1.00| 0.74 |
+|   [12288,60,35,20,18,7,4,1] | 7| 1.00| 0.58 |
 
 ### 2. DNN Vs CNN in Keras on Signs Dataset
 
