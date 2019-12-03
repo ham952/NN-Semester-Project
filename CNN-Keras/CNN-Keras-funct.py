@@ -1,6 +1,6 @@
 ##########################################################################################################################
 # Convolutional Neural Network (CNN) for Image Classification using "signs dataset" from kaggle
-# This is a Keras implementation of CNN by Hamza Rafique, IAA , Air University, Isb email : ham952@hotmail.com
+# This is a Keras implementation of CNN by Hamza Rafique during Masters Studies in IAA , Air University, Isb 2019 email : ham952@hotmail.com
 # Keras functional API approach is used to implement CNN 
 # Please feel free to use. Dont forget to acknowledge :)
 ##########################################################################################################################

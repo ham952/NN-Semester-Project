@@ -1,6 +1,6 @@
 ##########################################################################################################################
 # Deep Neural Network for Image Classification
-# This is a python implementation by Hamza Rafique, IAA , Air University, Isb email : ham952@hotmail.com
+# This is a python implementation by Hamza Rafique, during Masters Studies in IAA , Air University, Isb 2019 email : ham952@hotmail.com
 # Implmentation is inspired from "Neural Networks and Deep Learning" by "deeplearning.ai"
 # Please feel free to use. Dont forget to acknowledge :)
 ##########################################################################################################################

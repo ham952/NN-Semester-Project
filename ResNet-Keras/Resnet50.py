@@ -1,6 +1,6 @@
 ##########################################################################################################################
 # ResNet50 Implementation for Image Classification using "signs dataset" from kaggle
-# This is a Keras implementation of ResNet50 by Hamza Rafique, IAA , Air University, Isb email : ham952@hotmail.com
+# This is a Keras implementation of ResNet50 by Hamza Rafique, during Masters Studies in IAA , Air University, Isb 2019 email : ham952@hotmail.com
 # Implmentation is inspired from "Convolutional Neural Networks" by "deeplearning.ai"
 # Please feel free to use. Dont forget to acknowledge :)
 ##########################################################################################################################
